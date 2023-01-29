@@ -38,7 +38,23 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/firebase',
   ],
+
+  firebase : {
+    config: {
+      apiKey: "AIzaSyDOHhYtDclRDoMZcyaXx9SPNvFGhroFZTo",
+      authDomain: "portifolio-8e884.firebaseapp.com",
+      projectId: "portifolio-8e884",
+      storageBucket: "portifolio-8e884.appspot.com",
+      messagingSenderId: "747183040660",
+      appId: "1:747183040660:web:5169db2992f7390732ec81",
+      measurementId: "G-80YCG8SEWP"
+    },
+    services: {
+      firestore: true, // Just as example. Can be any other service.
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
