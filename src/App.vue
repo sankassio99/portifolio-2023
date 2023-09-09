@@ -1,11 +1,12 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
+import HomePage from './components/HomePage.vue'
 </script>
 
 <template>
   <div>
     <nav-bar></nav-bar>
-    <h1>Hello world</h1>
+    <home-page></home-page>
   </div>
 </template>
 
