@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center my-24 items-center ">
+    <div class="flex justify-center h-screen bg-customDark">
         <div class="container max-w-full mx-2 bg-customDark p-12 rounded-md flex flex-col items-center">
             <!-- Title and Description -->
             <h1 class="text-4xl font-semibold text-customCyan">My Skills</h1>
@@ -55,6 +55,6 @@
             name: "CSS",
             imgSrc: "/skills/css.png",
             desc: "Description of skill 1."
-        }
+        },
     ]
 </script>
