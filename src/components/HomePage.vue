@@ -8,8 +8,8 @@
                     merninisti licere mihi ista probare, quae sunt a te dicta?</p>
                 <a href="#"
                     class="mt-6 inline-block px-6 
-                    py-3 bg-blue-500 text-white 
-                    font-semibold rounded-lg hover:bg-blue-600 
+                    py-3 bg-customOrange text-white 
+                    font-semibold rounded-lg hover:bg-customSalmon
                     transition duration-300 ease-in-out">
                     Hire me</a>
             </div>
@@ -17,7 +17,7 @@
             <!-- Right side: Rounded picture -->
             <div class="md:w-1/3 mt-8 md:mt-0">
                 <img src="../assets/perfil-2.jpg" alt="Profile Picture"
-                    class="w-96 h-96 mx-auto rounded-full border-4 border-blue-500">
+                    class="w-96 h-96 mx-auto rounded-full border-4 ">
             </div>
     </div>
 </div></template>
