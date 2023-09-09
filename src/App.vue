@@ -1,26 +1,17 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import HomePage from './components/HomePage.vue'
+import ExperiencesPage from './components/ExperiencesPage.vue'
 </script>
 
 <template>
   <div>
     <nav-bar></nav-bar>
     <home-page></home-page>
+    <experiences-page></experiences-page>
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
