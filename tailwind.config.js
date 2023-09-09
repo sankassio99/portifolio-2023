@@ -12,6 +12,7 @@ export default {
         customGreen: '#51718C',
         customOrange: '#F27B50',
         customSalmon: '#BF826B',
+        customDarkBack: "#171E26",
       },
     },
   },

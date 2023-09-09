@@ -18,7 +18,7 @@
 
             <!-- Right side: Rounded picture -->
             <div class="md:w-1/3 mt-8 md:mt-0">
-                <img src="../assets/perfil-2.jpg" alt="Profile Picture"
+                <img src="/perfil-2.jpg" alt="Profile Picture"
                     class="w-96 h-96 mx-auto rounded-full border-4 ">
             </div>
     </div>
