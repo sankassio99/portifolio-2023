@@ -9,16 +9,15 @@
                 laoreet varius.</p>
 
             <!-- Grid of Skill Cards -->
-            <div class="grid grid-cols-6 gap-8 mt-8">
+            <div class="grid grid-cols-8 gap-8 mt-8">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
                 class=" p-4 rounded-lg shadow-md flex flex-col items-center">
                     <img :src="skill.imgSrc" :alt="'img-'+skill.name"
-                        class="w-20 h-20 mx-auto rounded-lg mb-4">
+                        class="w-16 h-16 mx-auto rounded-lg mb-4">
                     <h2 class="text-lg font-semibold text-customGreen">{{ skill.name }}</h2>
-                    <p class="text-gray-600 ">{{ skill.desc }}</p>
+                    <p class="text-customGreen text-xs text-center">{{ skill.desc }}</p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -29,32 +28,42 @@
         {
             name: "C#",
             imgSrc: '/skills/c-sharp.png',
-            desc: "Description of skill 1."
+            desc: "More than 1 year"
         },
         {
             name: "JavaScript",
             imgSrc: "/skills/javascript.png",
-            desc: "Description of skill 1."
+            desc: "More than 3 years"
         },
         {
             name: "Java",
             imgSrc: "/skills/java.png",
-            desc: "Description of skill 1."
+            desc: "Graduation"
         },
         {
             name: "Flutter",
             imgSrc: "/skills/flutter.png",
-            desc: "Description of skill 1."
+            desc: "More than 1 year"
         },
         {
             name: "TypeScript",
             imgSrc: "/skills/typescript.png",
-            desc: "Description of skill 1."
+            desc: "More than 1 year"
         },
         {
             name: "CSS",
             imgSrc: "/skills/css.png",
-            desc: "Description of skill 1."
+            desc: "Graduation and More than 3 years"
+        },
+        {
+            name: "Azure",
+            imgSrc: "/skills/azure.png",
+            desc: "More than 1 year"
+        },
+        {
+            name: "GitHub",
+            imgSrc: "/skills/git.png",
+            desc: "More than 3 years"
         },
     ]
 </script>
