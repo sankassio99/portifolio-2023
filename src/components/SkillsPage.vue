@@ -1,22 +1,33 @@
 <template>
-    <div class="flex justify-center h-screen bg-customDark">
-        <div class="container max-w-full mx-2 bg-customDark p-12 rounded-md flex flex-col items-center">
+    <div class="flex justify-center bg-customDark py-24">
+        <div class="container max-w-full mx-2  rounded-md flex flex-col items-center">
             <!-- Title and Description -->
-            <h1 class="text-4xl font-semibold text-customOrange">My Skills</h1>
+            <h1 class="text-4xl text-slate-200 font-bold">My Skills</h1>
             <p class="text-customGreen mt-4">
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. Nullam ut libero ut lacus
                 laoreet varius.</p>
 
             <!-- Grid of Skill Cards -->
-            <div class="grid grid-cols-8 gap-8 mt-8">
+            <div class="grid grid-cols-5 gap-0 mt-8 max-w-4xl">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
                 class=" p-4 rounded-lg shadow-md flex flex-col items-center">
                     <img :src="skill.imgSrc" :alt="'img-'+skill.name"
-                        class="w-16 h-16 mx-auto rounded-lg mb-4">
-                    <h2 class="text-lg font-semibold text-customGreen">{{ skill.name }}</h2>
+                        class="w-10 h-10 mx-auto rounded-lg mb-4">
+                    <h2 class="text-lg font-semibold text-customCyan">{{ skill.name }}</h2>
                     <p class="text-customGreen text-xs text-center">{{ skill.desc }}</p>
+                </div>
+            </div>
+
+            <div class="w-2/4 mt-16">
+                <h1 class="text-3xl text-slate-200 font-bold">Additional tecnologies</h1>
+                <div class="grid grid-cols-3 gap-4 mt-8">
+                    <div v-for="i in addSkills"
+                     class="flex items-baseline gap-2">
+                        <span class="bg-customSalmon w-4 h-4 rounded-full"></span>
+                        <h3 class="text-lg font-semibold text-customCyan">{{ i }}</h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -24,6 +35,18 @@
 </template>
 
 <script setup>
+    const addSkills = [
+        ".Net Core",
+        "Spring Boot",
+        "Python",
+        "Django",
+        "SQL Server",
+        "MySQL",
+        "Mongo DB",
+        "Firebase",
+        "JSON",
+    ]
+
     const skills = [
         {
             name: "C#",
