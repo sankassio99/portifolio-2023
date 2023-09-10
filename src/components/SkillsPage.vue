@@ -9,7 +9,7 @@
                 laoreet varius.</p>
 
             <!-- Grid of Skill Cards -->
-            <div class="grid grid-cols-5 gap-0 mt-8 max-w-4xl">
+            <div class="grid grid-cols-5 gap-0 mt-8 max-w-4xl w-full">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
                 class=" p-4 rounded-lg shadow-md flex flex-col items-center">
@@ -20,9 +20,9 @@
                 </div>
             </div>
 
-            <div class="w-2/4 mt-16">
-                <h1 class="text-3xl text-slate-200 font-bold">Additional tecnologies</h1>
-                <div class="grid grid-cols-3 gap-4 mt-8">
+            <div class="max-w-4xl mt-16 w-full">
+                <h1 class="text-3xl text-slate-200 font-bold text-center">Additional tecnologies</h1>
+                <div class="grid grid-cols-4 gap-4 mt-8">
                     <div v-for="i in addSkills"
                      class="flex items-baseline gap-2">
                         <span class="bg-customSalmon w-4 h-4 rounded-full"></span>
