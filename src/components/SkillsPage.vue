@@ -2,7 +2,7 @@
     <div class="flex justify-center h-screen bg-customDark">
         <div class="container max-w-full mx-2 bg-customDark p-12 rounded-md flex flex-col items-center">
             <!-- Title and Description -->
-            <h1 class="text-4xl font-semibold text-customCyan">My Skills</h1>
+            <h1 class="text-4xl font-semibold text-customOrange">My Skills</h1>
             <p class="text-customGreen mt-4">
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. Nullam ut libero ut lacus
@@ -15,7 +15,7 @@
                 class=" p-4 rounded-lg shadow-md flex flex-col items-center">
                     <img :src="skill.imgSrc" :alt="'img-'+skill.name"
                         class="w-20 h-20 mx-auto rounded-lg mb-4">
-                    <h2 class="text-lg font-semibold text-customOrange">{{ skill.name }}</h2>
+                    <h2 class="text-lg font-semibold text-customGreen">{{ skill.name }}</h2>
                     <p class="text-gray-600 ">{{ skill.desc }}</p>
                 </div>
 
