@@ -1,13 +1,11 @@
 <template>
     <div>
-        <div class="container mx-auto px-16 flex flex-col md:flex-row items-center justify-between h-screen ">
+        <div class="container mx-auto px-20 flex flex-col md:flex-row items-center justify-between h-screen ">
             <!-- Left side: Text content -->
             <div class="md:w-1/2 text-center md:text-left">
                 <h1 class="text-4xl font-bold text-gray-800">Hello, I'm Kássio Santana</h1>
                 <p class="text-gray-600 mt-4 text-lg">
-                    Graduated in Internet Systems, with more than <b>3 years of experience</b> in web development, 
-                    I thrive in collaborative environments and am dedicated to staying up-to-date with the latest industry trends, working 
-                    in high performance to deliver impact results.</p>
+                    Graduated in Internet Systems, with more than <b>3 years of experience</b> in web development.</p>
                 <a href="#"
                     class="mt-6 inline-block px-6 
                     py-3 bg-customOrange text-white 
