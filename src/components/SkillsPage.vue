@@ -9,10 +9,10 @@
                 laoreet varius.</p>
 
             <!-- Grid of Skill Cards -->
-            <div class="grid grid-cols-5 gap-5 mt-8 max-w-4xl w-full">
+            <div class="grid grid-cols-4 gap-5 mt-8 max-w-4xl w-full">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
-                class=" p-4 rounded-lg shadow-md flex flex-col items-center">
+                class=" p-4 rounded-lg border-2 flex flex-col items-center">
                     <img :src="skill.imgSrc" :alt="'img-'+skill.name"
                         class="w-10 h-10 mx-auto rounded-lg mb-4">
                     <h2 class="text-lg font-semibold text-customCyan">{{ skill.name }}</h2>
