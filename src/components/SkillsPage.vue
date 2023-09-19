@@ -1,15 +1,15 @@
 <template>
-    <div class="flex justify-center bg-customDark py-24">
+    <div class="flex justify-center py-24">
         <div class="container max-w-full mx-2  rounded-md flex flex-col items-center">
             <!-- Title and Description -->
-            <h1 class="text-4xl text-slate-200 font-bold">My Skills</h1>
+            <h1 class="text-4xl text-slate-800 font-bold">My skills</h1>
             <p class="text-customGreen mt-4">
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. Nullam ut libero ut lacus
                 laoreet varius.</p>
 
             <!-- Grid of Skill Cards -->
-            <div class="grid grid-cols-5 gap-0 mt-8 max-w-4xl w-full">
+            <div class="grid grid-cols-5 gap-5 mt-8 max-w-4xl w-full">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
                 class=" p-4 rounded-lg shadow-md flex flex-col items-center">
@@ -21,7 +21,7 @@
             </div>
 
             <div class="max-w-4xl mt-16 w-full">
-                <h1 class="text-3xl text-slate-200 font-bold text-center">Additional tecnologies</h1>
+                <h1 class="text-3xl text-slate-800 font-bold text-center">Additional tecnologies</h1>
                 <div class="grid grid-cols-4 gap-4 mt-8">
                     <div v-for="i in addSkills"
                      class="flex items-baseline gap-2">

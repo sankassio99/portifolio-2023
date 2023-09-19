@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-8">
+    <div class="container mx-auto p-20">
         <h1 class="text-4xl font-bold text-gray-800 mb-16">My Experiences</h1>
         <!-- Job Experience Timeline -->
         <div class="relative">
