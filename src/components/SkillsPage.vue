@@ -10,7 +10,7 @@
 
             <!-- Grid of Skill Cards gap-5 mt-8 px-2 flex w-full overflow-x-scroll -->
 
-            <div class="md:grid md:grid-cols-4 gap-5 mt-8 px-4 max-w-4xl flex w-full overflow-x-scroll">
+            <div class="md:grid md:grid-cols-4 gap-5 mt-8 px-4 max-w-4xl flex w-full md:overflow-hidden overflow-x-scroll">
                 <!-- Skill Card 1 -->
                 <div v-for="skill in skills" :key="skill.name"
                     class="shrink-0 md:w-44 w-32 p-4 rounded-lg border-2 flex flex-col items-center">

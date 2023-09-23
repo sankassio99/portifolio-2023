@@ -4,7 +4,7 @@
 
         <div class="md:grid md:grid-cols-3 gap-4 mt-8 flex items-center flex-col">
 
-            <div v-for="project in projects" class="p-2 rounded-lg border-2 h-auto w-96 flex-col flex items-center">
+            <div v-for="project in projects" class="p-2 rounded-lg border-2 h-auto md:w-64 w-96 flex-col flex items-center">
                 <img :src="project.imgSrc" alt="Profile Picture"
                       class="h-40 w-full object-cover">
                 <h2 class="text-2xl text-slate-800 font-bold text-center pt-2">{{ project.name }}</h2>
