@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container mx-auto pt-20 md:px-20 flex flex-col-reverse md:flex-row items-center gap-16 md:gap-20 justify-center h-screen ">
+        <div class="container mx-auto md:px-20 flex flex-col-reverse md:flex-row items-center gap-16 md:gap-20 justify-center h-screen ">
             <!-- Left side: Text content -->
             <div class="md:w-1/2 text-center md:text-left">
                 <h1 class="text-4xl font-bold text-gray-800">Hello, I'm Kássio Santana</h1>
