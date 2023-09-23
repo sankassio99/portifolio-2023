@@ -1,8 +1,8 @@
 <template>
-    <div class="container mx-auto p-20">
-        <h1 class="text-4xl font-bold">My personal projects</h1>
+    <div class="container mx-auto md:p-20">
+        <h1 class="text-4xl font-bold text-center">My personal projects</h1>
 
-        <div class="grid grid-cols-3 gap-4 mt-8">
+        <div class="md:grid md:grid-cols-3 gap-4 mt-8 flex items-center flex-col">
 
             <div v-for="project in projects" class="p-2 rounded-lg border-2 h-auto w-96 flex-col flex items-center">
                 <img :src="project.imgSrc" alt="Profile Picture"
