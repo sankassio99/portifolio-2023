@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex justify-center h-auto my-20">
+    <div class="container flex justify-center h-auto my-20 md:my-0">
         <div class="md:w-2/4 px-8 flex flex-col items-center justify-center">
             <h1 class="text-4xl font-bold mb-8">About me</h1>
             <p>
