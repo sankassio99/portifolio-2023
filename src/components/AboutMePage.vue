@@ -1,5 +1,5 @@
 <template>
-    <div class="h-auto py-20 md:my-0 flex items-center justify-center" id="aboutMe">
+    <div class="h-auto py-20 md:my-0 flex items-center justify-center bg-slate-100" id="aboutMe">
         <div class="md:w-1/2 px-8 flex flex-col items-center justify-center">
             <h1 class="text-4xl font-bold mb-8">About me</h1>
             <p>
