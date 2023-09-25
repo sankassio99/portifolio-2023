@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center py-20">
+    <div id="skills" class="flex justify-center py-20">
         <div class="container max-w-full mx-2  rounded-md flex flex-col items-center">
             <!-- Title and Description -->
             <h1 class="text-4xl text-slate-800 font-bold">My skills</h1>

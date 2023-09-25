@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="home">
         <div class="container mx-auto md:px-20 flex flex-col-reverse md:flex-row items-center gap-16 md:gap-20 justify-center h-screen ">
             <!-- Left side: Text content -->
             <div class="md:w-1/2 text-center md:text-left">

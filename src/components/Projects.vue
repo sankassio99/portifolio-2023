@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto md:p-20">
+    <div id="projects" class="container mx-auto md:p-20">
         <h1 class="text-4xl font-bold text-center">My personal projects</h1>
 
         <div class="md:grid md:grid-cols-3 gap-4 mt-8 flex items-center flex-col">
