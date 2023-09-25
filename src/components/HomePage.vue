@@ -6,12 +6,20 @@
                 <h1 class="text-4xl font-bold text-gray-800">Hello, I'm Kássio Santana</h1>
                 <p class="text-gray-600 mt-4 text-lg">
                     Full-stack Software Developer, with more than <b>3 years of experience</b> in web development.</p>
-                <a href="#"
+                <div class="flex gap-4 md:justify-start justify-center">
+                    <a href="#"
                     class="mt-6 inline-block px-6 
                     py-3 bg-customOrange text-white 
                     font-semibold rounded-lg hover:bg-customSalmon
                     transition duration-300 ease-in-out">
                     Hire me</a>
+                    <a href="#aboutMe"
+                        class="mt-6 inline-block px-6 
+                        py-3 bg-customCyan text-white 
+                        font-semibold rounded-lg hover:bg-customSalmon
+                        transition duration-300 ease-in-out">
+                        About me</a>
+                </div>
             </div>
 
             <!-- Right side: Rounded picture -->
