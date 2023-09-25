@@ -1,8 +1,8 @@
 <template>
-    <div id="projects" class="container mx-auto md:p-20">
-        <h1 class="text-4xl font-bold text-center">My personal projects</h1>
+    <div id="projects" class="container mx-auto md:p-20 flex flex-col items-center">
+        <h1 class="text-4xl font-bold text-center">Projects</h1>
 
-        <div class="md:grid md:grid-cols-3 gap-4 mt-8 flex items-center flex-col">
+        <div class="md:grid md:grid-cols-3 w-2/3 gap-4 mt-8 flex items-center flex-col">
 
             <div v-for="project in projects" class="p-2 rounded-lg border-2 h-auto md:w-64 w-96 flex-col flex items-center">
                 <img :src="project.imgSrc" alt="Profile Picture"
@@ -40,6 +40,12 @@
             imgSrc: '/projects/my-blog.png',
             desc: "Nuxt, Tailwind CSS, PHP for back end",
             link: "https://meu-blog-bice.vercel.app/"
+        },
+        {
+            name: "Sury Whiteboard",
+            imgSrc: '/projects/sury.png',
+            desc: "Flutter, Dart, .Net && C# for back end",
+            link: "https://sury.stratws.com/"
         },
     ]
 
