@@ -2,11 +2,10 @@
     <div id="skills" class="flex justify-center py-20">
         <div class="container max-w-full mx-2  rounded-md flex flex-col items-center">
             <!-- Title and Description -->
-            <h1 class="text-4xl text-slate-800 font-bold">My skills</h1>
+            <h1 class="text-4xl text-slate-800 font-bold">Technical skills</h1>
             <p class="text-customGreen mt-4 px-4">
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. Nullam ut libero ut lacus
-                laoreet varius.</p>
+                Are essential for developers to excel 
+                in their careers and contribute positively to software development projects. .</p>
 
             <!-- Grid of Skill Cards gap-5 mt-8 px-2 flex w-full overflow-x-scroll -->
 

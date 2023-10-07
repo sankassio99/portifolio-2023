@@ -14,6 +14,9 @@ export default {
         customSalmon: '#BF826B',
         customDarkBack: "#171E26",
       },
+      fontFamily: {
+        custom: ['Montserrat', 'sans'],
+      },
     },
   },
   plugins: [],

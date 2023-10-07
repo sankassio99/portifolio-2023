@@ -1,5 +1,5 @@
 <template>
-    <div id="projects" class="container mx-auto md:p-20 py-20 flex flex-col items-center bg-slate-100">
+    <div id="projects" class="container mx-auto md:p-20 py-20 flex flex-col items-center">
         <h1 class="text-4xl font-bold text-center">Projects</h1>
 
         <div class="md:grid md:grid-cols-3 w-2/3 gap-4 mt-8 flex items-center flex-col">

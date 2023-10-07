@@ -7,3 +7,9 @@ html {
     scroll-behavior: smooth;
     scroll-margin-top: 20px;
 }
+
+@layer base {
+    html {
+        font-family: "Roboto", "Montserrat", sans-serif;
+    }
+}

@@ -7,7 +7,7 @@
                 <p class="text-gray-600 mt-4 text-lg">
                     Full-stack Software Developer, with more than <b>3 years of experience</b> in web development.</p>
                 <div class="flex gap-4 md:justify-start justify-center">
-                    <a href="#"
+                    <a href="#contact"
                     class="mt-6 inline-block px-6 
                     py-3 bg-customOrange text-white 
                     font-semibold rounded-lg hover:bg-customSalmon
