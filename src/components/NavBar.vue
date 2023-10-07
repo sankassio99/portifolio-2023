@@ -42,11 +42,11 @@
             <div v-show="showMenu" 
                 class="bg-customDark w-full top-10 h-screen mt-8">
                 <ul class="flex flex-col items-center pt-40 h-full text-lg gap-4 font-bold text-slate-200">
-                    <li><a href="#home" class="text-white hover:text-gray-400 border-b-2">Home</a></li>
-                    <li><a href="#aboutMe" class="text-white hover:text-gray-400">About</a></li>
-                    <li><a href="#skills" class="text-white hover:text-gray-400">Skills</a></li>
-                    <li><a href="#projects" class="text-white hover:text-gray-400">Projects</a></li>
-                    <li><a href="#experiences" class="text-white hover:text-gray-400">Experiences</a></li>
+                    <li><a href="#home" @click="toggleMenu" class="text-white hover:text-gray-400 border-b-2">Home</a></li>
+                    <li><a href="#aboutMe" @click="toggleMenu" class="text-white hover:text-gray-400">About</a></li>
+                    <li><a href="#skills" @click="toggleMenu" class="text-white hover:text-gray-400">Skills</a></li>
+                    <li><a href="#projects" @click="toggleMenu" class="text-white hover:text-gray-400">Projects</a></li>
+                    <li><a href="#experiences" @click="toggleMenu" class="text-white hover:text-gray-400">Experiences</a></li>
                 </ul>
             </div>
         </nav>

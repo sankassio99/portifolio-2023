@@ -10,7 +10,7 @@
             </div>
 
             <div class="flex-1 flex items-center justify-center">
-                <form class="form-contact shadow-md rounded-md flex flex-col p-4 w-96 bg-white">
+                <form class="form-contact border shadow-md rounded-md flex flex-col p-4 w-96 md:w-3/4 bg-white">
                     <h2 class="text-3xl text-slate-800 font-bold">Send me a message 🚀</h2>
                     <div class="form mt-8 flex flex-col">
                         <input class="shadow appearance-none border rounded w-full py-2 px-3
