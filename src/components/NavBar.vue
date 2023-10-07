@@ -21,7 +21,7 @@
                     <li><a href="#aboutMe" class="text-white hover:text-gray-400">About</a></li>
                     <li><a href="#skills" class="text-white hover:text-gray-400">Skills</a></li>
                     <li><a href="#projects" class="text-white hover:text-gray-400">Projects</a></li>
-                    <li><a href="#experiences" class="text-white hover:text-gray-400">Experiences</a></li>
+                    <li><a href="#contact" class="text-white hover:text-gray-400">Contact</a></li>
                 </ul>
 
                 <!-- Hamburguer button -->

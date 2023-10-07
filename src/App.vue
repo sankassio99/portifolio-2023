@@ -5,6 +5,7 @@ import ExperiencesPage from './components/ExperiencesPage.vue'
 import SkillsPage from './components/SkillsPage.vue'
 import AboutMePage from './components/AboutMePage.vue'
 import Projects from './components/Projects.vue'
+import ContactPage from './components/ContactPage.vue'
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import Projects from './components/Projects.vue'
     <about-me-page></about-me-page>
     <skills-page></skills-page>
     <projects></projects>
-    <experiences-page></experiences-page>
+    <contact-page></contact-page>
   </div>
 </template>
 

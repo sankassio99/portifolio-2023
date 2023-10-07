@@ -26,7 +26,7 @@
                 <div class="grid md:grid-cols-4 grid-cols-2 gap-4 mt-8">
                     <div v-for="i in addSkills"
                      class="flex items-baseline gap-2">
-                        <span class="bg-customSalmon w-4 h-4 rounded-full"></span>
+                        <span class="bg-customCyan w-2 h-2 rounded-full"></span>
                         <h3 class="text-lg font-semibold text-customCyan">{{ i }}</h3>
                     </div>
                 </div>
