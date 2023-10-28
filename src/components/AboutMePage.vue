@@ -1,44 +1,70 @@
 <template>
-    <div class="h-auto py-20 md:my-0 flex items-center justify-center" id="aboutMe">
-        <div class="md:w-1/2 px-8 flex flex-col items-center justify-center">
-            <h1 class="text-4xl font-bold mb-8">About me</h1>
-            <p>
-                Graduated in Internet Systems, with more than <b>3 years of experience</b> in web development, 
-                I thrive in collaborative environments and am dedicated to staying up-to-date with the latest industry trends, working 
-                in high performance to deliver impact results.
-            </p>
-            <div class="flex mt-8 gap-3">
-                <a v-for="social in socials"
-                 :href="social.link" class="social-item flex items-center flex-col p-2 rounded-lg shadow-md hover:shadow-sm w-20">
-                    <img :src="social.imgSrc" alt="Profile Picture"
-                      class="w-6 h-6 ">
-                    <span class="text-xs font-bold">{{ social.name }}</span>
-                </a>
+    <div class="container flex h-auto md:items-start flex-wrap justify-center md:gap-24 gap-8 md:mt-24 mt-52" id="aboutMe">
+        <div class="md:mx-40 px-8 flex flex-col items-center justify-center">
+            <TitleCommon title="About me" sub-title="Get To Know More"></TitleCommon>
+
+            <div class="flex md:flex-row-reverse flex-col mt-6 gap-16 justify-center items-center">
+
+                <div class="flex gap-4 flex-col items-center">
+                    <p class="text-center">
+                        Graduated in Internet Systems, with more than <b>3 years of experience</b> in web development, 
+                        I thrive in collaborative environments and am dedicated to staying up-to-date with the latest industry trends, working 
+                        in high performance to deliver impact results.
+                    </p> 
+
+                    <!-- Social  -->
+                    <div class="flex mt-8 gap-3">
+                        <a v-for="social in socials"
+                        :href="social.link" class="social-item border-2 rounded-3xl p-4 flex flex-col items-center w-20">
+                            <i class="text-2xl" :class="social.icon"></i>
+                            <span class="text-xs font-bold">{{ social.name }}</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Boxes -->
+                <div class="flex gap-4 flex-col">
+                    <div class="border-2 rounded-3xl p-8 flex flex-col items-center w-96 h-40">
+                        <i class="ph ph-certificate text-3xl"></i>
+                        <p class="text-xl font-bold">Experience</p>
+                        <p class="text-gray-600">3+ years as Software Development</p>
+                    </div>
+
+                    <div class="border-2 rounded-3xl p-8 flex flex-col items-center w-96 h-40">
+                        <i class="ph ph-graduation-cap text-3xl"></i>
+                        <p class="text-xl font-bold">Education</p>
+                        <p class="text-gray-600 text-center">Bachelors Degree in Systems for Internet</p>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
 </template>
 <script setup>
+    import TitleCommon from './TitleCommon.vue';
+
     const socials = [
         {
             name: "GitHub",
             link: '#',
-            imgSrc: "/social/git.png"
+            icon: "ph ph-github-logo"
         },
         {
             name: "Linkedin",
             link: '#',
-            imgSrc: "/social/linkedin.png"
+            icon: "ph ph-linkedin-logo"
         },
         {
             name: "Instagram",
             link: '#',
-            imgSrc: "/social/insta.png"
+            icon: "ph ph-instagram-logo"
         },
         {
             name: "Blog",
             link: '#',
-            imgSrc: "/social/wordpress.png"
+            icon: "ph ph-article"
         },
     ]
 </script>

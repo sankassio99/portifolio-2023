@@ -1,3 +1,6 @@
+<script setup>
+    import TitleCommon from './TitleCommon.vue';
+</script>
 <template>
     <div id="home">
         <div class="container flex h-screen items-center flex-wrap justify-center md:gap-24 gap-8 pt-24">
@@ -8,8 +11,7 @@
 
             <div class="flex flex-col justify-center items-center">
                 <div class="flex flex-col justify-center items-center gap-2">
-                    <p class="font-bold text-gray-600">Hello, I'm </p>
-                    <h1 class="text-5xl font-extrabold text-gray-900">Kassio San</h1>
+                    <TitleCommon title="Kassio San" sub-title="Hello, I'm"></TitleCommon>
                     <p class="font-extrabold text-gray-600 text-3xl">
                         Full-stack Developer</p>
                 </div>
@@ -30,4 +32,5 @@
                 </div>
             </div>
     </div>
-</div></template>
+</div>
+</template>
