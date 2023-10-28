@@ -46,7 +46,7 @@
                     <li><a href="#aboutMe" @click="toggleMenu" class="text-white hover:text-gray-400">About</a></li>
                     <li><a href="#skills" @click="toggleMenu" class="text-white hover:text-gray-400">Skills</a></li>
                     <li><a href="#projects" @click="toggleMenu" class="text-white hover:text-gray-400">Projects</a></li>
-                    <li><a href="#experiences" @click="toggleMenu" class="text-white hover:text-gray-400">Experiences</a></li>
+                    <li><a href="#contact" @click="toggleMenu" class="text-white hover:text-gray-400">Experiences</a></li>
                 </ul>
             </div>
         </nav>
