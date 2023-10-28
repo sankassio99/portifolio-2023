@@ -1,16 +1,23 @@
 <script setup>
-    import { ref } from "vue";
+    import { onMounted, ref } from "vue";
 
     const showMenu = ref(false);
+    const showBackgroundMenu = ref(false);
 
     function toggleMenu(){
         showMenu.value = !showMenu.value
     }
+
+    onMounted(()=>{
+        document.addEventListener("scroll", (event) => {
+            showBackgroundMenu.value = window.scrollY >= 100;
+        });
+    })
 </script>
 
 <template>
     <div>
-        <nav class="py-12 px-40 md:fixed md:w-full">
+        <nav class="py-12 px-40 md:fixed md:w-full" :class="{ 'bg-white py-4 shadow-sm' : showBackgroundMenu }">
             <div class="container mx-auto flex justify-between items-center">
                 <!-- Logo or Branding (You can replace this with your own logo) -->
                 <a href="#" class="text-4xl">Kássio Dev</a>
