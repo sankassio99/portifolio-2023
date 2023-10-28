@@ -10,22 +10,22 @@
 
 <template>
     <div>
-        <nav class="bg-customDark p-4 md:fixed md:w-full">
+        <nav class="py-12 px-40 md:fixed md:w-full">
             <div class="container mx-auto flex justify-between items-center">
                 <!-- Logo or Branding (You can replace this with your own logo) -->
-                <a href="#" class="text-white text-lg font-semibold">My Portfolio</a>
+                <a href="#" class="text-4xl">Kássio Dev</a>
 
                 <!-- Menu Items -->
-                <ul class="md:flex space-x-4 hidden">
-                    <li><a href="#home" class="text-white hover:text-gray-400">Home</a></li>
-                    <li><a href="#aboutMe" class="text-white hover:text-gray-400">About</a></li>
-                    <li><a href="#skills" class="text-white hover:text-gray-400">Skills</a></li>
-                    <li><a href="#projects" class="text-white hover:text-gray-400">Projects</a></li>
-                    <li><a href="#contact" class="text-white hover:text-gray-400">Contact</a></li>
+                <ul class="md:flex space-x-6 hidden text-xl">
+                    <li><a href="#home" class="hover:text-gray-400 hover:underline">Home</a></li>
+                    <li><a href="#aboutMe" class="hover:text-gray-400 hover:underline">About</a></li>
+                    <li><a href="#skills" class="hover:text-gray-400 hover:underline">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400 hover:underline">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400 hover:underline">Contact</a></li>
                 </ul>
 
                 <!-- Hamburguer button -->
-                <button @click="toggleMenu" class="text-white hover:text-gray-400 focus:outline-none md:hidden block">
+                <button @click="toggleMenu" class="hover:text-gray-400 focus:outline-none md:hidden block">
                     <svg v-if="!showMenu" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

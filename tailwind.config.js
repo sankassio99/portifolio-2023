@@ -15,7 +15,7 @@ export default {
         customDarkBack: "#171E26",
       },
       fontFamily: {
-        custom: ['Montserrat', 'sans'],
+        custom: ['Poppins', 'sans'],
       },
     },
   },
