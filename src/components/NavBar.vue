@@ -17,7 +17,7 @@
 
 <template>
     <div>
-        <nav class="py-12 px-40 md:fixed md:w-full" :class="{ 'bg-white py-4 shadow-sm' : showBackgroundMenu }">
+        <nav class="md:py-12 md:px-40 px-4 py-6 fixed w-full" :class="{ 'bg-white md:py-4 shadow-sm' : showBackgroundMenu }">
             <div class="container mx-auto flex justify-between items-center">
                 <!-- Logo or Branding (You can replace this with your own logo) -->
                 <a href="#" class="text-4xl">Kássio Dev</a>
@@ -47,13 +47,13 @@
 
             <!-- Mobile Menu (hidden by default) -->
             <div v-show="showMenu" 
-                class="bg-customDark w-full top-10 h-screen mt-8">
-                <ul class="flex flex-col items-center pt-40 h-full text-lg gap-4 font-bold text-slate-200">
-                    <li><a href="#home" @click="toggleMenu" class="text-white hover:text-gray-400 border-b-2">Home</a></li>
-                    <li><a href="#aboutMe" @click="toggleMenu" class="text-white hover:text-gray-400">About</a></li>
-                    <li><a href="#skills" @click="toggleMenu" class="text-white hover:text-gray-400">Skills</a></li>
-                    <li><a href="#projects" @click="toggleMenu" class="text-white hover:text-gray-400">Projects</a></li>
-                    <li><a href="#contact" @click="toggleMenu" class="text-white hover:text-gray-400">Experiences</a></li>
+                class="bg-white w-full top-10 h-screen mt-8">
+                <ul class="flex flex-col items-center pt-40 h-full text-xl gap-4 font-bold text-slate-200">
+                    <li><a href="#home" @click="toggleMenu" class="text-black hover:text-gray-400 border-b-2">Home</a></li>
+                    <li><a href="#aboutMe" @click="toggleMenu" class="text-black hover:text-gray-400">About</a></li>
+                    <li><a href="#skills" @click="toggleMenu" class="text-black hover:text-gray-400">Skills</a></li>
+                    <li><a href="#projects" @click="toggleMenu" class="text-black hover:text-gray-400">Projects</a></li>
+                    <li><a href="#contact" @click="toggleMenu" class="text-black hover:text-gray-400">Experiences</a></li>
                 </ul>
             </div>
         </nav>
